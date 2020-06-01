@@ -1,0 +1,254 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.bootstrap-select .dropdown-menu  .inner{
+  height:100px;
+}
+.allteams-sendtask a.btn-sm{
+  margin-bottom: 0;
+    padding: .375rem .75rem;
+}
+.allteams-sendtask .wp-list-table{
+  margin-top: 20px;
+}
+.page-size-sel {
+    width: 24%;
+    display: inline-block;
+    text-align: right;
+}
+
+p.yb-status {
+    display: none;
+}
+
+.container.yb-add-container {
+    max-width: 100% !important;
+}
+
+#dashboard-widgets-wrap {
+    display: none;
+}
+
+.welcome-panel-close {
+    display: none;
+}
+
+#wpfooter {
+    display: none;
+}
+
+#task-meta-box .handlediv {
+    display: none;
+}
+
+.bootstrap-iso .form-control-sm {
+    height: 35px !important;
+}
+
+.bootstrap-iso .input-sm {
+    height: 35px !important;
+}
+
+.allteams-sendtask .childrens {}
+
+.allteams-sendtask .form-group {}
+
+.allteams-sendtask .collapse>.row {}
+
+.allteams-sendtask .add-block-content>.row {
+    padding-left: 50px;
+}
+
+.allteams-sendtask .page-number {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.allteams-sendtask .page-number .page-number-input {
+    max-width: 100%
+}
+
+.app-lists-items .row {
+    margin-left: 0px !important;
+}
+
+.page-number-input {
+    text-align: center;
+}
+
+.childrens-action {
+    padding-left: 0px !important;
+}
+
+.row-blocks {
+    padding: 10px;
+    margin-bottom: 10px !important;
+}
+
+.due-date-standing,
+.badge {
+    font-size: 14px !important;
+}
+
+.post-type-yearbook-plan .wp-media-buttons,
+.page-title-action,
+{
+    display: none;
+}
+
+.post-type-yearbook-plan #delete-action {
+    display: none;
+}
+
+.post-type-yearbook-plan #misc-publishing-actions {
+    display: none;
+}
+
+.post-type-yearbook-plan #minor-publishing-actions {
+    display: none;
+}
+
+
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_loader5*/
+
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border: 16px solid #000;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+    to {
+        bottom: 0px;
+        opacity: 1
+    }
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+.new-block {
+    background: #f9f9f9;
+    border: 2px solid #d3d3d3;
+}
+.new-block .dropdown-toggle{
+  display:block !important;
+}
+.row-blocks {
+    background: #f9f9f9;
+    border: 2px solid #d3d3d3;
+}
+
+.new-section {
+    background: yellow;
+    border: 2px solid red;
+}
+
+.bootstrap-iso .assign_to{
+
+}
+.bs-searchbox .form-control{
+  height:35px !important;
+}
+.sortable .ui-state-highlight { height: 150px; line-height: 70px; }
+.sortable .ui-state-default { background:transparent; }
+.ui-sortable-handle-main{cursor: pointer;}
+.edit-tr{display: none;}
+.page-visual-container{background: #f1f1f1;width: 100%;height: 100px;border: 2px solid black;overflow: auto;}
+.page-visual-container .bg-page{
+background: #f1f1f1;
+width: 50%;
+position: relative;
+float: left;
+height: 100%;
+/* margin-top: 25%; */
+border-right: 3px solid black;
+}
+.page-visual-container .bg-page-current{
+
+}
+.page-visual-container .bg-pagetwo{
+width: 50%;
+height: 100%;
+position: relative;
+float: right;
+}
+.xadd-block{position:relative;left:75px;}
+.articles-lists{
+  border: 1px dotted;
+  padding: 10px;
+  background: #e8e8e8;
+}
+
+.mid-row{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.page-container-col{
+  padding: 0;
+}
+
+
+.page-visual{
+  margin:0 30px;
+}
+
+.page-visual .row{
+  margin-bottom: 10px;
+  height: 100px;
+  width: 100px;
+}
+
+.page-visual .page-row{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.page-container-col-right{
+  padding-left: 5px !important;
+}
+.page-visual .row .left{
+  padding-right: 3px !important;
+}

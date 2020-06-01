@@ -1,0 +1,50 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ input[type="file"] {
+   display: block;
+ }
+ .imageThumb {
+   max-height: 175px;
+   border: 2px solid;
+   padding: 1px;
+   cursor: pointer;
+ }
+ .pip {
+   display: inline-block;
+   margin: 10px 10px 0 0;
+ }
+ .remove, .remove-img-db {
+   display: block;
+   background: #444;
+   border: 1px solid black;
+   color: white;
+   text-align: center;
+   cursor: pointer;
+ }
+ .remove:hover, .remove-img-db:hover {
+   background: white;
+   color: black;
+ }
+ .upload-image {
+   margin-top: 20px;
+   margin-bottom: 20px;
+ }
+
+ .file {
+    position: relative;
+    background: linear-gradient(to right, lightblue 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition:all 1s ease;
+ }
+  .file.done {
+    background: lightgreen;
+ }
+  .file a {
+    display: block;
+    position: relative;
+    padding: 5px;
+    color: black;
+ }
